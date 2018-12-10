@@ -1,0 +1,6 @@
+def f(num:Int,arr:List[Int]):List[Int]= {
+
+      val x = arr.flatMap(p=>List.fill(num)(p))
+      x
+        
+}
