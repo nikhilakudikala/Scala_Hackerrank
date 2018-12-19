@@ -1,0 +1,5 @@
+ def f(delim:Int,arr:List[Int]):List[Int] = {
+     
+     val x = arr.filter(x=> x<delim)
+     x
+ }
